@@ -1,38 +1,183 @@
-.App {
-  text-align: center;
+body{
+  background-color: #71634B;
+  background-image: url(./bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 100vh;
+}
+.home-component{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2%;
+  margin-bottom: 10%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-link{
+  color: white;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-link:hover{
+  color: white;
+ text-decoration: none!important;
+}
+.btn-link:focus{
+  outline: none!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-header{
+  background-color: #5D4E36;
+}
+
+.card-body{
+  background-color: #A9A187;
+}
+
+.nav-main{
+  width: 100%;
+  height: 5%;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  padding: 15px;
+  background-color: #5D4E36;
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid #A9A187;
+}
+
+.nav-main ul{
+  display: flex;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.nav-main ul li{
+  margin-right: 25px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-main ul a{
+  color: white;
+  text-decoration: none;
+}
+
+.result-div{
+  background-color: #71634B;
+  color: #fff;
+  width: 90%;
+  height: 40px;
+  margin-left: 5%;
+  margin-bottom: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.col1{
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+}
+.col2{
+  width: 5%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-left:25px;
+}
+.col3{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+.col4{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.col5{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+.col6{
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  padding-right:25px;
+}
+.col7{
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.result-banner1{
+  background-image: url('./bannerpvp1.jpg');
+  background-size: cover;
+  width: 90%;
+  height: 250px;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  border:  2px solid #A9A187;
+}
+
+/*HOME*/
+
+.home-content{
+  background-color: #71634B;;
+  height: 250px;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+  border: 2px solid #A9A187;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .home-component{
+      width: 95%;
+      margin-left: 2.5%;
+      margin-bottom: 175px;
+    }
+
+    .result-div{
+      font-size: 7px;
+      width: 98%;
+      margin-left:1%;
+    }
+
+    .result-banner1{
+      width: 98%;
+      margin-left:1%;
+      height: 150px;
+    }
+
+    body{
+      min-height:100vh;
+      max-height: 200vh;
+    }
+
+    .col4{
+      width: 7%;
+    }
+
+    .col1, .col7{
+      width: 20%;
+    }
+
+    .nav-main ul a{
+      font-size: 9px;
+    }
 }
