@@ -38,7 +38,7 @@ function Results() {
                 <div className='nav-main'>
                     <ul>
                     <li><img width='50' heigh='50' src='../cactuar-logo.png'></img></li>
-                    <Link to='/'><li>Présentation</li></Link>
+                    <Link to='/'><li>Liens Utiles</li></Link>
                     <Link to='/results'><li>Resultats JvJ</li></Link>
                     </ul>
                 </div>

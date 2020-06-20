@@ -125,8 +125,8 @@ body{
 /*HOME*/
 
 .home-content{
-  background-color: #71634B;;
-  height: 250px;
+  background-color: #71634B;
+  height: 50px;
   width: 60%;
   margin-left: 20%;
   margin-top: 10%;
@@ -135,6 +135,41 @@ body{
   justify-content: center;
   align-items: center;
   color: white;
+  font-weight: bold;
+}
+
+.liens-utiles{
+  background-color:  #A9A187;
+  border: 2px solid #71634B;
+  width: 60%;
+  margin-left: 20%;
+  height: auto;
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ligne-liens{
+  display: flex;
+  align-items: center;
+  padding: 4px 35px;
+  margin-top: 10px;
+  width: 500px;
+  background-color: #71634B;
+}
+
+.ligne-liens img{
+  margin-right: 35px;
+}
+
+
+.ligne-liens a{
+  color: white;
+  text-decoration: none;
 }
 
 
@@ -179,5 +214,19 @@ body{
 
     .nav-main ul a{
       font-size: 9px;
+    }
+    .liens-utiles{
+      width: 95%;
+      margin-left: 2.5%;
+      height: 70vh;
+    }
+    .ligne-liens{
+      width: 90%;
+      margin-left: 5%;
+    }
+    .home-content{
+      width: 90%;
+      margin-left: 5%;
+      padding: 5px 15px;
     }
 }
