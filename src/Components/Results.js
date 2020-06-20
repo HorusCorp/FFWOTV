@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 function Results() {
     var match = [
+        {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:56,result:'Victoire',score2:41,ecusson2:'../lionstatue.png',equipe2:'The WolfPack'},
         {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:57,result:'Victoire',score2:45,ecusson2:'../chocobo.png',equipe2:'Letifer'},
         {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:43,result:'Victoire',score2:31,ecusson2:'../cactuar-logo.png',equipe2:'ShiningForce'},
         {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:54,result:'Victoire',score2:28,ecusson2:'../cactuar-logo.png',equipe2:'Ivalice Squad'},
