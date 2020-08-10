@@ -1,9 +1,9 @@
 body{
-  background-color: #71634B;
-  background-image: url(./bg.jpg);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  background: #FFF;
   background-size: cover;
-  background-repeat: no-repeat;
-  max-height: 100vh;
+  max-height: 200vh;
 }
 .home-component{
   width: 60%;
@@ -26,11 +26,19 @@ body{
 }
 
 .card-header{
-  background-color: #5D4E36;
+  background-color: #000;
+  border: none;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-header btn:active{
+  text-decoration: none;
 }
 
 .card-body{
-  background-color: #A9A187;
+  background-color: #F6F7FA;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  min-height: auto;
 }
 
 .nav-main{
@@ -39,11 +47,11 @@ body{
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 15px;
-  background-color: #5D4E36;
+  padding: 2px 15px;
+  background-color: #000;
   color: white;
   font-weight: bold;
-  border-bottom: 2px solid #A9A187;
+  border-bottom: 1px solid white;
 }
 
 .nav-main ul{
@@ -64,8 +72,8 @@ body{
 }
 
 .result-div{
-  background-color: #71634B;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   width: 90%;
   height: 40px;
   margin-left: 5%;
@@ -73,6 +81,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .col1{
   width: 25%;
@@ -119,22 +128,71 @@ body{
   height: 250px;
   margin-left: 5%;
   margin-bottom: 2%;
-  border:  2px solid #A9A187;
+}
+
+.result-banner2{
+  background-image: url('./War-of-the-Visions-Gilgamesh-image.jpg');
+  background-size: cover;
+  width: 90%;
+  height: 250px;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+.result-banner3{
+  background-image: url('./bg.jpg');
+  background-size: cover;
+  width: 90%;
+  height: 250px;
+  margin-left: 5%;
+  margin-bottom: 2%;
 }
 
 /*HOME*/
 
 .home-content{
-  background-color: #71634B;;
-  height: 250px;
+  background-color: #000;
+  height: 50px;
   width: 60%;
   margin-left: 20%;
-  margin-top: 10%;
-  border: 2px solid #A9A187;
+  margin-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  font-weight: bold;
+}
+.usefullLinks-Zone{
+  background-color: #F6F7FA;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0% 20% 5% 20%;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.usefullLinks-card{
+  width: 90%;
+  margin-left: 5%;
+  height: 55px;
+  background-color: #FFF;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  margin:10px 0;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.usefullLinks-card img{
+  margin-right: 25px;
+}
+.usefullLinks-card a{
+  color: #000;
+  text-decoration: none;
 }
 
 
@@ -180,4 +238,212 @@ body{
     .nav-main ul a{
       font-size: 9px;
     }
+
+    .usefullLinks-Zone{
+      width: 90%;
+      margin-left: 5%;
+    }
+    .home-content{
+      width: 90%;
+      margin-left: 5%;
+    }
+    .tournament-result-card{
+      justify-content: space-evenly!important;
+      margin-left: 5%!important;
+      width: 90%!important;
+      height: 80vh;
+      background-position: inherit!important;
+    }
+    .guild-pampa img{
+      width: 100%!important;
+      height: 450px!important;
+    }
+    .guild-pampa h1 {
+      text-align: center;
+      font-size: 40px!important;
+    }
 }
+
+/*GALAXY NOTE 9*/
+@media only screen and (min-width: 414px) and (max-width: 767px){
+  .home-component{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 175px;
+  }
+
+  .result-div{
+    font-size: 7px;
+    width: 98%;
+    margin-left:1%;
+  }
+
+  .result-banner1{
+    width: 98%;
+    margin-left:1%;
+    height: 150px;
+  }
+
+  body{
+    min-height:100vh;
+    max-height: 200vh;
+  }
+
+  .col4{
+    width: 7%;
+  }
+
+  .col1, .col7{
+    width: 20%;
+  }
+
+  .nav-main ul a{
+    font-size: 9px;
+  }
+
+  .usefullLinks-Zone{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .home-content{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .tournament-result-card{
+    margin-left: 5%;
+    width: 90%;
+    height: 80vh;
+  }
+  .tournament-result-card{
+    justify-content: space-evenly!important;
+    margin-left: 5%!important;
+    width: 90%!important;
+    height: 80vh;
+    background-position: inherit!important;
+  }
+  .guild-pampa img{
+    width: 100%!important;
+    height: 450px!important;
+  }
+  .guild-pampa h1 {
+    text-align: center;
+    font-size: 40px!important;
+  }
+}
+
+/* redmi note Xioamin 5_7 et samsung note 9*/
+@media only screen and (min-width: 393px) and (max-width: 767px) { 
+  .home-component{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 175px;
+  }
+
+  .result-div{
+    font-size: 7px;
+    width: 98%;
+    margin-left:1%;
+  }
+
+  .result-banner1{
+    width: 98%;
+    margin-left:1%;
+    height: 150px;
+  }
+
+  body{
+    min-height:100vh;
+    max-height: 200vh;
+  }
+
+  .col4{
+    width: 7%;
+  }
+
+  .col1, .col7{
+    width: 20%;
+  }
+
+  .nav-main ul a{
+    font-size: 9px;
+  }
+
+  .usefullLinks-Zone{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .home-content{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .tournament-result-card{
+    margin-left: 5%;
+    width: 90%;
+    height: 80vh;
+  }
+  .tournament-result-card{
+    justify-content: space-evenly!important;
+    margin-left: 5%!important;
+    width: 90%!important;
+    height: 80vh;
+    background-position: inherit!important;
+  }
+  .guild-pampa img{
+    width: 100%!important;
+    height: 450px!important;
+  }
+  .guild-pampa h1 {
+    text-align: center;
+    font-size: 40px!important;
+  }
+ }
+
+
+
+
+
+
+ .tournament-result-card{
+   background-color: #F6F7FA;
+   background-image: url(./macherie.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: left;
+   width: 60%;
+   margin-left: 20%;
+   padding: 25px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+ }
+
+
+
+/*HOME PAGE */
+ .guild-pampa{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .guild-pampa img{
+   width: 500px;
+   height: 500px;
+ }
+ .guild-pampa span{
+  margin-bottom: 35px;
+  font-weight: bold;
+ }
+ .guild-pampa h1{
+   margin-top: -35px;
+   font-size: 55px;
+ }
