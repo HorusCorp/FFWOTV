@@ -4,6 +4,16 @@ import { Link } from "react-router-dom";
 
 function Home() {
     var matchAout = [
+        {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:61,result:'Défaite',score2:72,ecusson2:'../logo-lyon.png',equipe2:'War Of Lions'},
+        {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:62,result:'Victoire',score2:57,ecusson2:'../cactuar-logo.png',equipe2:'Corona Virus'},
+        {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:51,result:'Défaite',score2:66,ecusson2:'../yellow.png',equipe2:'JapNameTeam'},
+        {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:63,result:'Victoire',score2:56,ecusson2:'../spider.png',equipe2:'Garuda'},
+        {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:61,result:'Défaite',score2:68,ecusson2:'../lionstatue.png',equipe2:'Eternal Flame'},
+        {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:58,result:'Défaite',score2:75,ecusson2:'../mog.png',equipe2:'FinalFantasy'},
+        {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:66,result:'Victoire',score2:63,ecusson2:'../sun.png',equipe2:'TheOnyxGuard'},
+        {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:42,result:'Victoire',score2:37,ecusson2:'../spider.png',equipe2:'EoE'},
+        {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:69,result:'Défaite',score2:72,ecusson2:'../logo-lyon.png',equipe2:'Lion Heart'},
+        {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:66,result:'Défaite',score2:66,ecusson2:'../chocobo.png',equipe2:'Elysium'},
         {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:55,result:'Défaite',score2:75,ecusson2:'../mog.png',equipe2:'Twin Adder'},
         {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:72,result:'Victoire',score2:58,ecusson2:'../knight.png',equipe2:'Vagrants'},
         {equipe1:'Ivalice FR',ecusson1:'../cactuar-logo.png',score1:56,result:'Défaite',score2:75,ecusson2:'../tree.png',equipe2:'Lcie Bois'},
